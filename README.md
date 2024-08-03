@@ -27,3 +27,6 @@ This is a simple implementation of the classic Tic Tac Toe game. It allows two p
 ![screely-1722664772843](https://github.com/user-attachments/assets/1ccc6d71-635c-4c6f-8425-4ee9b9d84d2e)
 ![screely-1722664689548](https://github.com/user-attachments/assets/e1993ad7-b3ce-4f01-a529-842c07170a64)
 ![screely-1722664816750](https://github.com/user-attachments/assets/f622610d-3e23-475d-9891-374436226612)
+
+## Contributing
+Feel free to fork this repository, create new branches, and submit pull requests if you'd like to contribute to this project. Please make sure to follow the code of conduct.
