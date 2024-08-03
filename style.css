@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root{
+    --bg-color: #DFF5FF;
+    --cont-bg-color: #67C6E3;
+    --color: white;
+    --x: #433D8B;
+    --o: #EB3678;
+    --dis: black;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+.container{
+    height: 429px;
+    width: 429px;
+    border: none;
+    background-color: var(--cont-bg-color);
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 10px;
+    animation: visible 1s;
+    animation-fill-mode: forwards;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    font-size: 55px;
+    display: block;
+    background-color: var(--bg-color);
+}
+
+#Reset{
+    opacity: 0;
+    height: 50px;
+    width: 429px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cont-bg-color);
+    color: var(--color);
+    font-size: 22px;
+    font-weight: 600;
+    animation: rst 0.5s linear 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    top: 23px;
+}
+
+.winner{
+    font-size: 150px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: visible 0.5s;
+    display:  none;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+#p1 , #p2{
+    font-size: 33px;
+    color: var(--dis);
+    opacity: 0;
+    animation: rst 0.5s linear 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:550px){
+    .container{
+        width: 76.8vw;
+        height: 76.8vw;
+        border-radius: 3vw;
+        gap: 1.9vw;
+    }
+    .box{
+        font-size: 10vw;
+    }
+    #Reset{
+        width: 77.8vw;
+        height: 9vw;
+        font-size: 4vw;
+        top: 4.6vw;
+    }
+    .winner{
+        font-size: 27vw;
+    }
+    
+    #p1 , #p2{
+        font-size: 6vw;
+    }
+}
+
+@keyframes visible{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes rst{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
