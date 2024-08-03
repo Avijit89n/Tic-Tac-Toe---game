@@ -24,6 +24,6 @@ This is a simple implementation of the classic Tic Tac Toe game. It allows two p
 5. Use the 'Reset Now/New Game' button to clear the board and start a new game.
 
 ## Screenshot
-![screely-1722663227648](https://github.com/user-attachments/assets/47ac4434-16ae-4319-a63f-05fe889f2533)
-![screely-1722664558953](https://github.com/user-attachments/assets/5e6c72d6-bbfc-4b08-8a71-77d34e6df920)
-![screely-1722663282318](https://github.com/user-attachments/assets/98f6fbc0-337e-44b6-9603-e536f138610a)
+![screely-1722664772843](https://github.com/user-attachments/assets/1ccc6d71-635c-4c6f-8425-4ee9b9d84d2e)
+![screely-1722664689548](https://github.com/user-attachments/assets/e1993ad7-b3ce-4f01-a529-842c07170a64)
+![screely-1722664816750](https://github.com/user-attachments/assets/f622610d-3e23-475d-9891-374436226612)
