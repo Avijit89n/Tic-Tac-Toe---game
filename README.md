@@ -1,6 +1,6 @@
 # Tic Tac Toe Game
 
-This is my awesome project hosted on GitHub Pages. 🔗 [View Live Site](https://avijit89n.github.io/Tic-Tac-Toe---game/)
+This is my awesome project hosted on GitHub Pages. 🔗 [View Site](https://avijit89n.github.io/Tic-Tac-Toe---game/)
 
 ## Overview
 This is a simple implementation of the classic Tic Tac Toe game. It allows two players to play the game on a 3x3 grid. The first player to align three of their marks (X or O) horizontally, vertically, or diagonally wins the game.
